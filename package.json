@@ -1,0 +1,24 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --config web-dev-server.config.cjs",
+    "build": "rollup -c",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.0.3",
+    "@rollup/plugin-image": "^3.0.3",
+    "@web/dev-server": "^0.4.3",
+    "gh-pages": "^6.1.1",
+    "rollup": "^4.12.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-css-only": "^4.5.2"
+  },
+  "type": "module"
+}
